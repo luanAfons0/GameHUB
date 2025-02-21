@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--white-color);
+}
+
+:root {
+  --blue-color: #305cde;
+  --white-color: #fafafa;
+
+  --border-radius-xl: 18px;
+  --border-radius-md: 12px;
+  --border-radius-sm: 6px;
+
+  --breakpoint-sm: 540px;
+  --breakpoint-md: 720px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1140px;
+  --breapoint-xxl: 1320px;
+}
