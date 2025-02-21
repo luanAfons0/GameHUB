@@ -1,10 +1,10 @@
 import Container from "../container";
-import Title from "../title";
+import Header from "../header";
 
 function App() {
   return (
     <Container>
-      <Title />
+      <Header />
     </Container>
   );
 }
