@@ -1,6 +1,13 @@
 .container {
   display: flex;
+  justify-content: center;
   color: var(--white-color);
   padding: 1rem;
   background-color: var(--blue-color);
+
+  .infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

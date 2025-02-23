@@ -1,12 +1,9 @@
 .container {
   max-width: 1200px;
-  margin: auto;
-
-  &.fullWidth {
-    max-width: unset;
-  }
+  min-width: 1200px;
 
   @media (max-width: 1200px) {
+    min-width: -webkit-fill-available;
     padding: 0 5vw;
   }
 }
