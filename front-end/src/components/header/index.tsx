@@ -1,6 +1,6 @@
-import Button from "../Button";
-import Container from "../Container";
 import styles from "./styles.module.scss";
+import Container from "../Container";
+import Button from "../Button";
 
 export default function Header() {
   return (

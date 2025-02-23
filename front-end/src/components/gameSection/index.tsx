@@ -1,5 +1,5 @@
-import FlexRow from "../flexRow";
 import Container from "../Container";
+import FlexRow from "../FlexRow";
 
 export default function GameSection() {
   return (
