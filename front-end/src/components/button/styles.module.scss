@@ -6,7 +6,7 @@
   transition: 1s ease-in-out;
 
   &:hover {
-    background-color: var(--gray-color);
+    background-color: var(--hover-gray-color);
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transition: transition 0.3s ease-in-out;
