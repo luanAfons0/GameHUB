@@ -2,4 +2,14 @@
   padding: 0.5rem 1rem;
   border: 1px solid var(--black-color);
   border-radius: var(--border-radius-md);
+  cursor: pointer;
+  transition: 1s ease-in-out;
+
+  &:hover {
+    background-color: var(--gray-color);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transition: transition 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+  }
 }
