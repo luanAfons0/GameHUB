@@ -24,3 +24,30 @@ body {
   --breakpoint-xl: 1140px;
   --breapoint-xxl: 1320px;
 }
+
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-VariableFont_wdthwght.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: roboto, "Times New Roman", Times, serif;
+}
+
+p,
+div,
+span,
+section,
+button {
+  font-family: poppins, Arial, Helvetica, sans-serif;
+}
