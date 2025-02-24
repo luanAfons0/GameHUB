@@ -1,11 +1,15 @@
+import styles from "./styles.module.scss";
 import Container from "../Container";
 import FlexRow from "../FlexRow";
+import LeftMenu from "../LeftMenu";
 
 export default function GameSection() {
   return (
     <FlexRow>
       <Container>
-        <h1>Centered item here</h1>
+        <div className={styles.gameSection}>
+          <LeftMenu />
+        </div>
       </Container>
     </FlexRow>
   );
