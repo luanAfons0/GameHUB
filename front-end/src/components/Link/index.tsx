@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "./styles.module.scss";
 
 type LinkType = {
@@ -7,8 +8,8 @@ type LinkType = {
 
 export default function Link({ text, url }: LinkType) {
   return (
-    <a className={styles.link} href={url}>
+    <NavLink className={styles.link} to={url}>
       {text}
-    </a>
+    </NavLink>
   );
 }
