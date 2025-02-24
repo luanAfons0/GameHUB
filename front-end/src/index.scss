@@ -29,7 +29,7 @@ body {
 @font-face {
   font-family: "poppins";
   src: local("Poppins Regular"), local("Poppins-Regular"),
-    url(../fonts/Poppins-Regular.ttf) format("woff2");
+    url(/fonts/Poppins-Regular.ttf) format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -38,7 +38,7 @@ body {
 @font-face {
   font-family: "roboto";
   src: local("Roboto Regular"), local("Roboto-Regular"),
-    url(../fonts/Roboto-VariableFont_wdthwght.ttf) format("woff2");
+    url(/fonts/Roboto-Regular.ttf) format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -50,13 +50,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: roboto, "Times New Roman", Times, serif;
+  font-family: "roboto", "Times New Roman", Times, serif;
 }
 
+a,
 p,
 div,
 span,
 section,
 button {
-  font-family: poppins, Arial, Helvetica, sans-serif;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
 }
