@@ -8,7 +8,9 @@ type LeftMenuLink = {
 };
 
 export default function LeftMenu() {
-  const mockedItems = [{ url: "/breaker-2d", text: "Breaker Game" }];
+  const mockedItems = [
+    { url: "/game-section?game=breaker-2d", text: "Breaker Game" },
+  ];
 
   return (
     <section className={styles.leftMenu}>

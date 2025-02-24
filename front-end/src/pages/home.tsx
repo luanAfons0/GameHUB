@@ -1,12 +1,10 @@
-import GameSection from "../components/GameSection";
 import PageDisplay from "../components/PageDisplay";
-import Header from "../components/Header";
 
 export default function Home() {
   return (
     <PageDisplay>
-      <Header />
-      <GameSection />
+      <h1>Here is the home page!</h1>
+      <p>The basic content of the site is here.</p>
     </PageDisplay>
   );
 }
