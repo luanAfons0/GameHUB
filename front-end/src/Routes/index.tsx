@@ -3,7 +3,7 @@ import NotFoundPage from "../pages/NotFoundPage";
 import GamePage from "../pages/GamePage";
 import Home from "../pages/Home";
 
-export default function AllRoutes() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
