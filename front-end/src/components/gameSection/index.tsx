@@ -1,7 +1,8 @@
 import styles from "./styles.module.scss";
 import Container from "../Container";
-import FlexRow from "../FlexRow";
 import LeftMenu from "../LeftMenu";
+import FlexRow from "../FlexRow";
+import Canvas from "../Canvas";
 
 export default function GameSection() {
   return (
@@ -9,6 +10,7 @@ export default function GameSection() {
       <Container>
         <div className={styles.gameSection}>
           <LeftMenu />
+          <Canvas />
         </div>
       </Container>
     </FlexRow>

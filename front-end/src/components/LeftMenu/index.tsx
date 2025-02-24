@@ -1,6 +1,6 @@
 import HorizontalDivider from "../HorizontalDivider";
-import Link from "../Link";
 import styles from "./styles.module.scss";
+import Link from "../Link";
 
 type LeftMenuLink = {
   url: string;
@@ -13,8 +13,8 @@ export default function LeftMenu() {
   return (
     <section className={styles.leftMenu}>
       {mockedItems.map((item: LeftMenuLink, index: number) => (
-        <div>
-          <Link url={item.url} text={item.text} key={index} />
+        <div key={index}>
+          <Link url={item.url} text={item.text} />
           <HorizontalDivider />
         </div>
       ))}
