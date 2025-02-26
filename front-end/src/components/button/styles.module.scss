@@ -4,6 +4,7 @@
   border-radius: var(--border-radius-md);
   cursor: pointer;
   transition: 1s ease-in-out;
+  color: var(--black-color);
 
   &:hover {
     background-color: var(--hover-gray-color);

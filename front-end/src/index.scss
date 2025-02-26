@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: var(--white-color);
+  background-color: var(--black-color);
 }
 
 :root {
@@ -50,6 +50,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--white-color);
   font-family: "roboto", "Times New Roman", Times, serif;
 }
 
@@ -59,5 +60,6 @@ div,
 span,
 section,
 button {
+  color: var(--white-color);
   font-family: "poppins", Arial, Helvetica, sans-serif;
 }
